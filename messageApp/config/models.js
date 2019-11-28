@@ -12,6 +12,10 @@
  * them on a project-wide or per-model basis, see:
  * https://sailsjs.com/docs/concepts/models-and-orm/model-settings
  */
+module.exports.models = {
+  connection: 'mongo',
+  migrate: 'safe'
+};
 
 module.exports.models = {
 
